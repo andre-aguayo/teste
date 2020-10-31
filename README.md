@@ -22,7 +22,7 @@ define('USERNAME', 'root'); //Exemplo: altere de 'root' para o seu nome de usuar
 //Senha 
 define('PASSWORD', ''); //Exemplo: altere de '' para a sua senha.
 ```
-Segundo: acesse o arquivo criarBanco.php, que esta localizado na pasta raiz da aplicação para criar a tabela de usuarios e cadastrá-los no banco (utilizando o arquivo 'arquivo_lanches.csv', que esta localizado em 'assets/arquivo_lanches.csv'), para possibilitar a busca e exibição na tabela.
+Segundo: navegue para o arquivo criarBanco.php, que esta localizado na pasta raiz da aplicação, para criar a tabela de usuarios e cadastrá-los no banco (utilizando o arquivo 'arquivo_lanches.csv', que esta localizado em 'assets/arquivo_lanches.csv'), para possibilitar a busca e exibição na tabela.
 
 O arquivo encontra-se em /teste/criarBanco.php.
 
