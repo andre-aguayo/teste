@@ -14,20 +14,20 @@ Primeiro: use o arquivo Config.php, que encontra-se em src/Config.php, para defi
 define('HOST', 'localhost'); //Exemplo: altere de 'localhots' para o local do seu banco de dados.
 
 //Nome do banco de dados
-define('DBNAME', 'andreaguayo_teste');
+define('DBNAME', 'andreaguayo_teste'); //Exemplo: altere de 'andreaguayo_teste' para o nome do seu banco de dados.
 
 //Nome do usuario
-define('USERNAME', 'root');
+define('USERNAME', 'root'); //Exemplo: altere de 'root' para o seu nome de usuario.
 
 //Senha 
-define('PASSWORD', '');
+define('PASSWORD', ''); //Exemplo: altere de '' para a sua senha.
 ```
-Segundo: acesse o arquivo criarBanco.php, que esta localizado na pasta raiz da aplicação para criar a tabela de usuarios e cadastrá-los no banco, e assim permitira a exibição na tabela.
+Segundo: acesse o arquivo criarBanco.php, que esta localizado na pasta raiz da aplicação para criar a tabela de usuarios e cadastrá-los no banco, para possibilitar a busca e exibição na tabela.
 
-encontra-se em /teste/criarBanco.php.
+O arquivo encontra-se em /teste/criarBanco.php.
 
 ## Uso
-Para filtrar os usuarios basta posicionar o mouse acima do campo "Filtro", e selecionar as opçoes desejadas.
+Para filtrar os usuarios basta posicionar o mouse acima do campo "Filtro", selecionar as opçoes desejadas, e clicar no botão "Buscar".
 Como por exemplo, usuarios com o peso ideal, e abaixo do peso q sejam atletas. E assim em diante.
 
 ## Tecnologias
