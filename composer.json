@@ -5,7 +5,10 @@
     "autoload": {
         "psr-4": {
             "andreaguayo\\teste\\": "src/"
-        }
+        },
+        "files": [
+            "src/Config.php"
+        ]
     },
     "require": {},
     "authors": [
