@@ -39,6 +39,8 @@ Foi utilizado o composer pela praticidade do autoload.php e para definir as cons
 
 É feita a leitura do arquivo CSV fornecido no exercicio para realizar o cadastro dos usuarios no arquivo criarBanco.php.
 
+Para o desenvolvimento da resolução do exercicio foi utilizado o xampp, o banco de dados utilizado foi o MySQL, e a versão do php 7.4.8.
+
 ## Observações
 A função cadastrarUsuarioCSV() da classe GerenciarUsuarios() foi contruida para realizar o cadastro de usuarios independente da quantidade, desde q estejam no mesmo formato, com o cabeçalho na primeira linha e a mesma ordem das colunas.
 
