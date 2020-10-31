@@ -21,7 +21,7 @@ define('USERNAME', 'root');
 
 //Senha 
 define('PASSWORD', '');
-
+```
 Segundo: acesse o arquivo criarBanco.php, que esta localizado na pasta raiz da aplicação para criar a tabela de usuarios e cadastrá-los no banco, e assim permitira a exibição na tabela.
 
 encontra-se em /teste/criarBanco.php.
