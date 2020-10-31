@@ -30,6 +30,8 @@ O arquivo encontra-se em /teste/criarBanco.php.
 Para filtrar os usuarios basta posicionar o mouse acima do campo "Filtro", selecionar as opçoes desejadas, e clicar no botão "Buscar".
 Como por exemplo, usuarios com o peso ideal, e abaixo do peso q sejam atletas. E assim em diante.
 
+Para remover o usuario basta clicar no icone de lixeira na tabela e o usuario sera removido do banco e da tabela no DOM.
+
 ## Tecnologias
 A pagina utiliza jquery e ajax para realizar requisiçoes assincronas e assim preencher a tabela com os usuarios sem a necessidade de recarregar toda a pagina.
 
