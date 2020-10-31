@@ -38,6 +38,6 @@ Foi utilizado o composer pela praticidade do autoload.php e para definir as cons
 É feita a leitura do arquivo CSV fornecido no exercicio para realizar o cadastro dos usuarios no arquivo criarBanco.php.
 
 ## Observações
-Nos arquivos removerUsuario.php e criarBanco.php, foi ignorado algumas questões de boas praticas como verificação do provilegio do usuario para cadastrar e remover usuarios apenas para demonstração de habilidades e conhecimenco de manipulação de dados do banco, e processamento de resposta.
-
 A função cadastrarUsuarioCSV() da classe GerenciarUsuarios() foi contruida para realizar o cadastro de usuarios independente da quantidade, desde q estejam no mesmo formato, com o cabeçalho na primeira linha e a mesma ordem das colunas.
+
+Nos arquivos removerUsuario.php e criarBanco.php, foi ignorado algumas questões de boas praticas como verificação do provilegio do usuario para cadastrar e remover usuarios apenas para demonstração de habilidades e conhecimenco de manipulação de dados do banco, e processamento de resposta.
