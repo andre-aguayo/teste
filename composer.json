@@ -1,0 +1,17 @@
+{
+    "name": "andreaguayo/teste",
+    "description": "Teste pratatico de admissao",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "andreaguayo\\teste\\": "src/"
+        }
+    },
+    "require": {},
+    "authors": [
+        {
+            "name": "Andre Aguayo Alves",
+            "email": "andre.aguayo@hotmail.com"
+        }
+    ]
+}
