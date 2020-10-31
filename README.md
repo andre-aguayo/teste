@@ -22,7 +22,7 @@ define('USERNAME', 'root'); //Exemplo: altere de 'root' para o seu nome de usuar
 //Senha 
 define('PASSWORD', ''); //Exemplo: altere de '' para a sua senha.
 ```
-Segundo: acesse o arquivo criarBanco.php, que esta localizado na pasta raiz da aplicação para criar a tabela de usuarios e cadastrá-los no banco, para possibilitar a busca e exibição na tabela.
+Segundo: acesse o arquivo criarBanco.php, que esta localizado na pasta raiz da aplicação para criar a tabela de usuarios e cadastrá-los no banco (utilizando o arquivo 'arquivo_lanches.csv', que esta localizado em 'assets/arquivo_lanches.csv'), para possibilitar a busca e exibição na tabela.
 
 O arquivo encontra-se em /teste/criarBanco.php.
 
@@ -35,5 +35,9 @@ A pagina utiliza jquery e ajax para realizar requisiçoes assincronas e assim pr
 
 Foi utilizado o composer pela praticidade do autoload.php e para definir as constantes de configuração da aplicação.
 
+É feita a leitura do arquivo CSV fornecido no exercicio para realizar o cadastro dos usuarios no arquivo criarBanco.php.
+
 ## Observações
-Nos arquivos removerUsuario.php e criarBanco.php, foi ignorado algumas questões de boas praticas como verificação do provilegio do usuario para cadastrar e remover usuarios apenas para demonstração de habilidades e conhecimenco de manipulação de dados do banco, e processamento de resposta
+Nos arquivos removerUsuario.php e criarBanco.php, foi ignorado algumas questões de boas praticas como verificação do provilegio do usuario para cadastrar e remover usuarios apenas para demonstração de habilidades e conhecimenco de manipulação de dados do banco, e processamento de resposta.
+
+A função cadastrarUsuarioCSV() da classe GerenciarUsuarios() foi contruida para realizar o cadastro de usuarios independente da quantidade, desde q estejam no mesmo formato, com o cabeçalho na primeira linha e a mesma ordem das colunas.
