@@ -2,6 +2,7 @@
 
 namespace andreaguayo\teste\model;
 
+//Classe de usuarios
 class Usuario
 {
     private $id;
